@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---ADD THE 2 BELLOW FOR STYLES -->
+    <link rel="stylesheet" href="./App.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/@shopify/polaris@5.10.1/dist/styles.css"
+  />
+  <!-------------------------------------->
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="App">
+        <AppProvider >
+         <!-- the welcome container -->
+         <div class="Polaris-Layout">
+            <div class="Polaris-Layout__Section">
+              <div class="Polaris-TextContainer Polaris-TextContainer--spacingLoose" >
+                <h2 class="Polaris-Heading">Hi Sara!</h2>
+                <h2 class="Polaris-Heading greeting">Have a great Afternoon </h2>
+      
+                <div class="my-container">
+                    <button
+                    type="button"
+                    class="Polaris-Button Polaris-Button--primary Polaris-Button--sizeLarge"
+                  >
+                    <span class="Polaris-Button__Content">
+                      <span class="Polaris-Button__Text"> Visit Dashboard</span>
+                    </span>
+                  </button>
+                  <button
+                    type="button"
+                    class="Polaris-Button Polaris-Button--plain"
+                  >
+                    <span class="Polaris-Button__Content">
+                      <span class="Polaris-Button__Text">Learn more</span>
+                    </span>
+                  </button>
+                </div>
+            </div>
+            </div>
+            <div class="Polaris-Layout__Section Polaris-Layout__Section--secondary">
+              <img class="logo" src="./illus1.png"/>
+            </div>
+          </div>
+         <!-- the getstarted container -->
+         <div class="Polaris-Card" >
+            <div class="Polaris-Card__Header">
+                <h2 class="Polaris-Heading">Let's get started!</h2>
+              </div>
+            <div class="Polaris-Card__Section">
+              <p>
+                Here we will put why to use US and how to make the experience great
+                for your shop
+              </p>
+            </div>
+            <div class="Polaris-Card__Section">
+                <p>Congratulation , Now you can install your theme</p>
+      
+                <button
+                  
+                  type="button"
+                  class="Polaris-Button Polaris-Button--primary"
+                >
+                  <span class="Polaris-Button__Content">
+                    <span class="Polaris-Button__Text"> Install widget</span>
+                  </span>
+                </button>
+              </div>
+                  <!--input -->
+              <div class="Polaris-Card__Section">
+                <div class="get-started">
+                  <p>
+                    Already Have an account , insert your api key and let's get
+                    started!
+                  </p>
+                  <div class="my-input">
+                    <div class="Polaris-Connected">
+                        <div class="Polaris-Connected__Item Polaris-Connected__Item--primary">
+                          <div class="Polaris-TextField Polaris-TextField--hasValue"><input id="PolarisTextField2" class="Polaris-TextField__Input" aria-labelledby="PolarisTextField2Label" aria-invalid="false" aria-multiline="false" value="API KEY">
+                            <div class="Polaris-TextField__Backdrop"></div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <button
+                    
+                    type="button"
+                    class="Polaris-Button Polaris-Button--primary"
+                  >
+                    <span class="Polaris-Button__Content">
+                      <span class="Polaris-Button__Text"> Submit </span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              
+          </div>
+          <!---------second card-------------->
+          <div class="Polaris-Card">
+            <div class="Polaris-Card__Section">
+              <p>Congratulation , widget is successfully installed</p>
+  
+              <button type="button" class="Polaris-Button widget-button">
+                <span class="Polaris-Button__Content">
+                  <span class="Polaris-Button__Text">Remove widget</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <!----------manual install card------------>
+          <div class="Polaris-Card ">
+            <div class="Polaris-Card__Header header-container">
+              <h2 class="Polaris-Heading">Manual installation</h2>
+              <img src="./1.png" class="code-logo" />
+            </div>
+  
+            <div class="Polaris-Card__Section manual-intallation-steps">
+              <h2 class="Polaris-Heading second-header">
+                Check guide in recomend.io config tab
+              </h2>
+              <figure class="code-snippet">
+                <pre>
+                  <code> code snippet </code>
+                </pre>
+              </figure>
+            </div>
+          </div>
+          <!------------final card----------->
+          <div class="second-card">
+            <div
+              class="Polaris-Card"
+             
+            >
+            <div class="Polaris-Card__Header">
+                <h2 class="Polaris-Heading">Make sure you have those steps done</h2>
+              </div>
+              <div class="Polaris-Card__Section">
+                <p>
+                  Here we will put he need to make sure all configuration are done
+                </p>
+              </div>
+             
+              <div class="Polaris-Card__Section">
+                <p>
+                  Setup Your Language and store category, default reviews inside the
+                  dashboard
+                </p>
+                <div>
+                  <button
+                    type="button"
+                    class="Polaris-Button Polaris-Button--primary"
+                  >
+                    <span class="Polaris-Button__Content">
+                      <span class="Polaris-Button__Text">Dedault review</span>
+                    </span>
+                  </button>
+    
+                  <button
+                    type="button"
+                    class="Polaris-Button Polaris-Button--plain"
+                  >
+                    <span class="Polaris-Button__Content">
+                      <span class="Polaris-Button__Text">Learn more</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div class="Polaris-Card__Section">
+                <p>Setup Your Coupon code so your customers get happy</p>
+                <div>
+                  <button
+                    type="button"
+                    class="Polaris-Button Polaris-Button--primary"
+                  >
+                    <span class="Polaris-Button__Content">
+                      <span class="Polaris-Button__Text">Create Coupon</span>
+                    </span>
+                  </button>
+    
+                  <button
+                    type="button"
+                    class="Polaris-Button Polaris-Button--plain"
+                  >
+                    <span class="Polaris-Button__Content">
+                      <span class="Polaris-Button__Text">Learn more</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div class="Polaris-Card__Section">
+                <p>Request reviews from your old customers</p>
+                <div>
+                  <button
+                    type="button"
+                    class="Polaris-Button Polaris-Button--primary"
+                  >
+                    <span class="Polaris-Button__Content">
+                      <span class="Polaris-Button__Text">Request reviews</span>
+                    </span>
+                  </button>
+                  <button
+                    type="button"
+                    class="Polaris-Button Polaris-Button--plain"
+                  >
+                    <span class="Polaris-Button__Content">
+                      <span class="Polaris-Button__Text">Learn more</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </AppProvider>
+      </div>
+</body>
+</html>

@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 7%;
+}
+
+.Polaris-Heading {
+  font-weight: normal;
+  font-size: 25px !important;
+  padding: 5px;
+  line-height: 30px;
+  padding-left: 0 !important;
+}
+
+.Polaris-Layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.Polaris-TextContainer--spacingLoose {
+  padding: 20px;
+  padding-left: 0;
+  text-align: center;
+}
+.my-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+.Polaris-Button--plain {
+  margin-top: 10px;
+}
+.logo {
+  height: 100%;
+  width: 100%;
+}
+.Started {
+  background-color: #894c75;
+}
+.Polaris-Card {
+  text-align: start;
+}
+.Polaris-Card__Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.get-started {
+  width: 100%;
+  text-align: center;
+}
+.second-header {
+  font-size: 18px !important;
+}
+
+.my-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.second-card {
+  margin-top: 50px;
+}
+
+.Polaris-Button--primary {
+  width: 140px;
+}
+.Polaris-Button--sizeLarge {
+  width: 200px;
+  align-self: center;
+}
+.code-logo {
+  height: 40px;
+  width: 60px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code-snippet {
+  height: 400px;
+  width: 100%;
+  border: 1px solid gainsboro;
+  overflow-y: auto;
+  background-color: #c1c1c1;
+}
+@media screen and (min-width: 600px) {
+  .Polaris-TextContainer--spacingLoose {
+    padding: 20px;
+    padding-left: 0;
+    text-align: left;
+  }
+  .my-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .Polaris-Button--plain {
+    margin-left: 2rem !important;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+  .Polaris-Heading {
+    font-weight: normal;
+    font-size: 40px;
+    padding: 5px;
+    line-height: 30px;
+  }
+  .logo {
+    height: 200px;
+    width: 300px;
+  }
+  .Polaris-Card {
+    text-align: start;
+    margin-bottom: 10px;
+  }
+  .Polaris-Card__Section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  p {
+    line-height: 20px;
+    margin-bottom: 3px;
+  }
+  .second-card {
+    margin-top: 30px;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .code-logo {
+    height: 40px;
+    width: 60px;
+  }
+
+  .manual-intallation-steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-top: 1px solid gainsboro;
+    margin-top: 20px;
+  }
+  .code-snippet {
+    height: 400px;
+    width: 70%;
+    border: 1px solid gainsboro;
+    overflow-y: auto;
+    background-color: #c1c1c1;
+  }
+  .second-header {
+    font-size: 24px;
+    color: black;
+  }
+  .second-header {
+    font-size: 18px !important;
+  }
+}
+.widget-button {
+  border-color: #da0063 !important;
+  background: linear-gradient(to bottom, #da0063, #da0063) !important;
+
+  box-shadow: inset 0 1px 0 0 #da0063, 0 1px 0 0 rgba(22, 29, 37, 0.05),
+    0 0 0 0 transparent;
+  color: white !important;
+  width: 140px !important;
+}
+.widget-button:hover {
+  background: linear-gradient(to bottom, #df307f, #df307f);
+  border-color: #df307f;
+  box-shadow: inset 0 1px 0 0 #df307f, 0 1px 0 0 rgba(22, 29, 37, 0.05),
+    0 0 0 0 transparent;
+  color: white;
+}
